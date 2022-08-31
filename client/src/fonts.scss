@@ -1,0 +1,111 @@
+@font-face {
+	font-family: 'Lato-Light';
+	src: local('Lato-Light'), url('./fonts/Lato-Light.ttf') format('truetype');
+	font-weight: lighter;
+}
+@font-face {
+	font-family: 'Lato';
+	src: local('Lato'), url('./fonts/Lato-Regular.ttf') format('truetype');
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Lato-Bold';
+	src: local('Lato-Bold'), url('./fonts/Lato-Bold.ttf') format('truetype');
+	font-weight: bold;
+}
+
+// Legacy
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+// Generic typos
+
+@mixin small-text-light {
+	font-family: Lato;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1.5rem;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+@mixin small-text-medium {
+	font-family: Lato;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+@mixin regular-text-medium {
+	font-family: Lato;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.5rem;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+@mixin regular-text-light {
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+@mixin large-text-medium {
+	font-family: Lato;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+@mixin large-text-light {
+	font-family: Lato-light;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+@mixin headline-h5 {
+	font-family: Lato;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1.5rem;
+	letter-spacing: -0.015em;
+	text-align: left;
+	color: $secondary_300;
+}
+
+@mixin special-link {
+	font-family: Lato;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	text-align: left;
+}
+
+@mixin micro-text-bold {
+	font-family: Lato;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 16px;
+	letter-spacing: 0.04em;
+	text-align: left;
+}
